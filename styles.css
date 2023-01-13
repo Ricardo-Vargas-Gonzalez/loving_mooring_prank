@@ -9,13 +9,13 @@ h1 {
 .modo_zetso {
     height: 2000px;
     position: absolut;
-    display: non;
+    display: none;
     width: 100%;
     background-color: red;
 }
 
 #btn_si {
-    background-color: beige;
+    background-color: cadetblue;
     border-color: cadetblue;
     color: azure;
     font-size: xx-large;
