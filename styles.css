@@ -12,6 +12,7 @@ h1 {
     display: none;
     width: 100%;
     background-color: red;
+    z-index: 100;
 }
 
 #btn_si {
