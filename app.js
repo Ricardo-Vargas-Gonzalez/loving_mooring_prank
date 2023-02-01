@@ -16,3 +16,11 @@ btnSi.addEventListener('click', function(e) {
     const song = new Audio('img\\img_modo_hot.mp3')
     song.play();
 });
+
+buttons = document.getElementsByTagName("button")
+console.log(buttons[0]) /*esto es un arreglo*/ 
+
+window.addEventListener('beforeunload', (event) => {
+    event.preventDefault();
+    event.returnValue = "";
+}); 
